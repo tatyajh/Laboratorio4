@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Lab4FCM</string>
+    <string name="textViewSignin"><u>¿Ya se encuentra registrado?</u></string>
+    <string name="textViewSignUp"><u>¿Aún no está registrado?</u></string>
+    <string name="title_activity_events">Eventos</string>
+    <string name="not_log_in">No se pudo iniciar sesión</string>
+    <string name="log_out">Salir</string>
+    <string name="revoke">Deshacer</string>
+    <string name="not_close_session">No se pudo cerrar sesión</string>
+    <string name="not_revoke">No se pudo deshacer el acceso</string>
+    <string name="not_firebase_auth">No se pudo autenticar</string>
+</resources>

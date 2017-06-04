@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="co.edu.udea.compumovil.gr05_20171.lab4.MainActivity"
+    >
+
+    <LinearLayout
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Registro de usuarios"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal" />
+
+        <EditText android:id="@+id/etUserRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Nombre de usuario"
+            android:layout_margin="15dp"
+          />
+
+        <EditText android:id="@+id/etDateRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Edad"
+            android:layout_margin="15dp"/>
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:hint="Ingrese el email"
+            android:inputType="textEmailAddress"
+            android:typeface="normal" />
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:hint="Ingrese la contraseña"
+            android:inputType="textPassword"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textIsSelectable="false"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/etPasswordConfirmer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:hint="Confirmar Contraseña"
+            android:inputType="textPassword"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textIsSelectable="false"
+            android:textSize="18sp" />
+
+
+        <Button
+            android:id="@+id/buttonSignup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Registrarse" />
+        <Button
+            android:id="@+id/buttonCancelar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Cancelar" />
+
+
+        <TextView
+            android:id="@+id/textViewSignin"
+            android:text="@string/textViewSignin"
+            android:textAlignment="center"
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+            </LinearLayout>
+
+       </ScrollView>
+
